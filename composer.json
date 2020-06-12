@@ -1,0 +1,15 @@
+{
+    "name": "sowrensen/scroll",
+    "description": "Write blog posts using markdown formatting.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sowren Sen",
+            "email": "sowrensen@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^5.3"
+    }
+}
