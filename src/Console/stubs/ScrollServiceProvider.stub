@@ -1,0 +1,28 @@
+<?php
+
+
+namespace App\Providers;
+
+
+use Illuminate\Support\ServiceProvider;
+use Sowren\Scroll\Facades\Scroll;
+
+class ScrollServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        Scroll::fields($this->registerFields());
+    }
+
+    public function register()
+    {
+        //
+    }
+
+    protected function registerFields()
+    {
+        return [
+            //
+        ];
+    }
+}
